@@ -1,0 +1,265 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    display: flex;
+}
+.menu-img{
+    width: 20px;
+    margin: 25px;
+    
+
+}
+body{
+    margin: 0%;
+    width: 100%;
+}
+.menu-text{
+    float: inline-end;
+    color: black;
+    margin-top: 25px;
+}
+.porsche-text{
+    float: inline-end;
+    color: black;
+    padding-left: 500px;
+    padding-top: 10px;
+    size: 500px;
+
+}
+.porsche-img1{
+    width: 100%;
+    height: 500px;
+
+}
+.main-body{
+    width: 100%;
+    height: 500px;
+    background-image: url('porsche-img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+}
+.main-body .content{
+    /* background-color: blue; */
+    z-index: 99;
+    padding-left: 100px;
+    width: 100vw;
+    height: 150px;
+}
+.main-body .content h2{
+    font-size: 40px;
+}
+.main-body .content .fa-chevron-right{
+    color: rgb(242, 14, 37);
+    size: 5px;
+}
+.main-body .content p{
+    font: size 20px; ;
+    margin-top: -20px;
+}
+.text-1st{
+    color: black;
+    margin-left: 100px;
+}
+
+
+.second-main-body {
+    margin: 0;
+    width: 100vw;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Keep sections stacked */
+}
+
+.model-1 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex; /* Align child divs inline */
+}
+
+.second-main-body-1st,
+.second-main-body-2st,
+.second-main-body-3st {
+    width: 33.33vw; /* Divide the width equally */
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second-main-body-1st {
+    background-image: url('porsche-img2.webp');
+}
+
+.second-main-body-2st {
+    background-image: url('porsche-img3.jpeg');
+}
+
+.second-main-body-3st {
+    background-image: url('porssch-img4.jpeg');
+}
+
+.model-2 {
+    display: flex; /* Align images in a row */
+    justify-content: space-evenly; /* Add space between images */
+    align-items: center; /* Vertically align images */
+    margin-top: 10px;
+}
+
+.model-2 div img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/* .second-main-body{
+    margin: 0%;
+    
+    width: 100vw;
+    /* float: left; */
+    
+    
+  
+/*  
+}
+.second-main-body .model-1{
+    width: 100vw;
+    height: 600px;
+    background-color: black;
+
+}
+
+.second-main-body-1st{
+    width: 33vw;
+    height: 500px;
+    background-image: url('porsche-img2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; */
+
+    /* display: flex; */
+    /* align-items: flex-end; */
+/*     
+}
+.second-main-body-2st{
+    width: 33vw;
+    height: 500px;
+    background-image: url('porsche-img3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+    /* align-items: flex-end; */
+
+/* }
+.second-main-body-3st{
+    width: 33vw;
+    height: 500px;
+    background-image: url('porssch-img4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+
+
+}  */
+.img-normal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.body-tool-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.tool-img-1st{
+    width: 378px;
+    height: 426px;
+    background-image: url('porsche-Tools-img1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+
+
+}
+.tool-img-2nd{
+    width: 378px;
+    background-image: url('porsche-Tools-img2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    /* display: flex; */
+    /* align-items: flex-end; */
+
+
+}
+.tool-img-3ed{
+    width: 378px;
+    height: 200px;
+    
+    background-image: url('porsche-Tools-img3.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    /* display: flex; */
+    align-items: flex-end;
+}
+.tool-img-4th{
+    width: 378px;
+    
+    background-image: url('porsche-Tools-img4.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+
+}
+.list{
+    width: 24vw;
+    height: 60vh;
+    background-color: azure;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+/* .list2{
+    width: 24vw;
+    height: 60vh;
+    background-color: azure;
+    float: left; */
+/* } */
+.share-button{
+    width: 300px;
+    margin-left: 60%;
+    margin-top: 5%;
+    height: 40px;
+    background: black;
+    color: #fff;
+    
+}
+.divcover-img{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.social-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.root{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
